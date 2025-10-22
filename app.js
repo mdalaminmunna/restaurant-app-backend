@@ -68,8 +68,8 @@ app.use((req, res) => {
   res.status(404).json({ message: "Not found" });
 });
 
-// app.listen(3000, () => {
-//   console.log("Application is Running!");
-// });
+app.listen(3000, () => {
+  console.log("Application is Running!");
+});
 
-export default app;
+// export default app;
